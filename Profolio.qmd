@@ -1,0 +1,42 @@
+---
+project:
+  type: website
+
+website:
+  title: "About me"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: MachineLearningProject1.ipynb
+        text: ML Project
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    title-block-banner: true
+---
+
+**About Me**
+
+Hi, I'm Raphael Siewen. I'm a Data Science student with a minor in Economics.
+
+**Skills:**
+
+I'm proficient in R code, Python, SQL, and some cloud computing. I have a good understanding of economics and the business cycle. I'm good at working in a group setting, and I love learning and sharing new ideas with my peers.
+
+**Interests:**
+
+I'm interested in socioeconomic and psychology. The ways in which humans interact with one another and the impact of social structures on the human psyche. I am also interested in how human personality grows and changes over time.
+
+**Projects I worked on:**
+
+[Machine Learning Project](MachineLearningProject1.ipynb)
+
+**Resume**:
+
+[Resume](Resume.pdf)
